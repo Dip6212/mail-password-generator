@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="mailStyle.css">
+    <link rel="stylesheet" href="passwordStyle.css">
+    <title>Mail_password_generator</title>
+</head>
+
+<body>
+    <div class="container">
+
+    <!--------- mail section starts------->
+        <div class="header">
+            <h1>E-mail Generator</h1>
+        </div>
+        <div class="maildisplay_sec">
+            <input type="email" readonly placeholder="email" class="maildisplay">
+            <button class="copy_btn">
+                <span class="copymsg"></span>
+                <i class="fas fa-file-import"></i>
+            </button>
+        </div>
+        <div class="mail_option">
+            <div class="display_number">
+                <h3>mail-length</h3>
+                <p class="length">0</p>
+            </div>
+
+            <div class="slider_sec">
+                <input type="range" class="slider_range" min="0" max="40">
+            </div>
+
+            <div class="input_sec">
+                <div class="first_name_sec">
+                    <label>First Name</label>
+                    <input type="text" class="first_name">
+                </div>
+                <div class="last_name_sec">
+                    <label>Last Name</label>
+                    <input type="text" class="last_name">
+                </div>
+            </div>
+
+            <button class="generate_btn">generate button</button>
+
+        </div>
+
+
+
+
+
+
+
+<!-----------password section starts ----------------->
+
+
+
+
+
+
+
+
+        <div class="heading">
+            <h2>password generator</h2>
+        </div>
+        <div class="output_section">
+            <input readonly placeholder="password" data-displaypassword class="display">
+            <button data-copy>
+                <span class="tooltip" data-copyTarget></span>
+                <img src="assets/copy.svg" alt="copy">
+            </button>
+        </div>
+
+        <div class="option_sec">
+            <div class="length_sec">
+                <p>password length</p>
+                <p data-lengthNumber>0</p>
+            </div>
+            <div class="range">
+                <input data-passwordlength class="slider" type="range" id="volume" name="volume" min="0" max="20">
+
+            </div>
+
+            <div class="check_sec">
+                <div class="check">
+                    <input type="checkbox" id="uppercase">
+                    <label>include uppercase letters</label><br>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="lowercase">
+                    <label>include lowercase letters</label><br>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="numbers">
+                    <label>include numbers letters</label><br>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="symbols">
+                    <label>include symbols letters</label><br>
+                </div>
+            </div>
+
+            <div class="strength">
+                <p>strength</p>
+                <div class="indicator" data-indicator></div>
+            </div>
+
+            <div class="btn">
+                <button class="generateButton">generate password</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="javascript.js"></script>
+
+    
+</body>
+
+</html>
