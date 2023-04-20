@@ -96,14 +96,14 @@
     border-radius: 1rem;
     padding: 2rem;
     border-bottom: 0.35rem solid var(--lt-violet2);
-    margin-bottom: 70px;
+    margin-bottom: 35px;
 }
 
 .display_number{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
+    
 }
 
 .display_number h3{
@@ -162,6 +162,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 30px 0;
+    gap: 15px;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -187,7 +188,11 @@
     outline-style: none;
   }
 
-  .slider_range{
+  .first_name_sec label{
+    margin-bottom: 5px;
+  }
+
+  /* .slider_range{
     appearance: none;
     width:100%;
     height: 0.75rem;
@@ -225,5 +230,5 @@
     outline: 2px solid var(--vb-yellow);
     background-color: var(--dk-violet);
     box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.80);
-}
+} */
 

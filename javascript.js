@@ -14,7 +14,7 @@ handleSlide();
 function handleSlide(){
     // lengthDisplay=fName.value.length+lname.value.length;
     displayLength.innerHTML=lengthDisplay;
-    slideRange.value=lengthDisplay;
+    
     
     
 }
@@ -45,10 +45,7 @@ async function copyContents() {
     }, 2000);
 }
 
-slideRange.addEventListener('input',(e)=>{
-    lengthDisplay=e.target.value;
-    handleSlide();
-})
+
 
 
 
