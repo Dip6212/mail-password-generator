@@ -7,7 +7,7 @@ let fname=document.querySelector(".first_name");
 let lname=document.querySelector(".last_name");
 let subbtn=document.querySelector(".submit_btn")
 let generateBtn=document.querySelector(".generate_btn");
-let lengthDisplay=15;
+let lengthDisplay=0;
 let email="";
 handleSlide();
 
